@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    background-image: url(/bg.png);
+}
+.input{
+      
+    width: 80%;
+    height: 50px;
+    margin: 50px 0 50px 50px;
+    border: 20px solid black;
+    
+}
+input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+border: none;
+background: none;
+font-size: 40px;
+align-items: center;
+text-align: center;
+
+}
+input::placeholder{
+    font-weight: bolder;
+    color: black;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
