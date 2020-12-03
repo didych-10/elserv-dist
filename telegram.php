@@ -7,7 +7,7 @@ $adress = $_POST['adress'];
 $token = "1390388368:AAHh7PrOtBHBa58PsLYkUVWYhEIKVlkMfdw";
 $chat_id = "-386083989";
 $arr = array( 
-    'ДАТА: ' => $name,
+    'ДАТА: ' => $date,
     'ЧАС: ' => $time,
     'АДРЕС: ' => $adress
 );
